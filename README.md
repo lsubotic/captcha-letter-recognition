@@ -8,9 +8,9 @@ Utilizing Keras/Tensorflow to create an end to end Deep Learning solution which 
 <img src="readme_imgs/od4.png" width="160"/>
 <img src="readme_imgs/od5.png" width="160"/>
 <br>
-In many guides and tutorials I found 'letter CAPTCHA' breaking solutions which relied on OpenCV contour finding to localize letters so a DL model can perform classification.
-Such aproach often proved unreliable as no matter how good the classification model is, it still depends solely on OpenCV's ability to find correct countours. 
-Instead of that, I decided to replace it with a custom model which will find letters on the image itself.
+In many guides and tutorials for breaking letter CAPTCHA-s I found solutions which relied on OpenCV contour finding to localize letters so a DL model can perform classification.
+Such aproach often proved unreliable, as no matter how good the classification model is, it still depends solely on OpenCV's ability to find correct countours. 
+Instead, I decided to replace that part of the process with a custom model which, by itself, will be able to localize letters on the image.
 
 ## Data used:
 Data comes in two forms:
